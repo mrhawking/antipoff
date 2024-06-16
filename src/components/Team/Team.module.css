@@ -9,6 +9,7 @@
   grid-auto-rows: 263px;
   gap: 20px;
   justify-content: center;
+  margin-bottom: clamp(2rem, 1.3785rem + 2.6519vw, 3.5rem);
 }
 
 .showMoreBtn {

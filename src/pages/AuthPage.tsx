@@ -7,8 +7,8 @@ const AuthPage = () => {
 
   return (
     <main>
-      <section style={{ paddingTop: '10%' }}>
-        {isAuth && <p style={{ textAlign: 'center' }}>Вы уже вошли в систему</p>}
+      <section className="paddingTop">
+        {isAuth && <p className="align-center">Вы уже вошли в систему</p>}
         {!isAuth && <AuthForm />}
       </section>
     </main>

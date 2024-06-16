@@ -8,6 +8,7 @@
   --gray--100: #808185;
   --neutral--100: #F8F8F8;
   --accent-violet--100: #512689;
+  --accent-violet-dark--100: #341859;
   --accent-red--100: #FF6161;
   --accent--green--100: #00CC99;
 
@@ -161,6 +162,9 @@ legend {
   text-align: center;
 }
 
+.paddingTop {
+  padding-top: 10%;
+}
 
 .text {
   font-size: 16px;

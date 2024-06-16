@@ -73,6 +73,7 @@ const AuthForm = () => {
           id='username'
           placeholder='Артур'
           name="username"
+          hasError={!!errors.username}
           register={register}
           rules={{
             required: {
@@ -92,6 +93,7 @@ const AuthForm = () => {
           id='email'
           placeholder='example@mail.ru'
           name="email"
+          hasError={!!errors.email}
           register={register}
           rules={{
             required: {
@@ -116,6 +118,7 @@ const AuthForm = () => {
           id='password'
           placeholder='******'
           name="password"
+          hasError={!!errors.password}
           register={register}
           rules={{
             required: {
@@ -142,6 +145,7 @@ const AuthForm = () => {
               id='repassword'
               placeholder='******'
               name="repassword"
+              hasError={!!errors.password}
               register={register}
               rules={{
                 required: {

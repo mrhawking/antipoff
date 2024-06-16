@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.customButton:hover,
+.customButton:focus-visible {
+  background-color: var(--accent-violet-dark--100);
+}
+
 .white {
   color: var(--main-light--100);
   border: 1px solid currentColor;
