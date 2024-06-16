@@ -1,5 +1,5 @@
 import { Dispatch } from '@reduxjs/toolkit';
-import { authActions } from './aith-slice';
+import { authActions } from './auth-slice';
 
 export const LogIn = (token: string) => {
   return (dispatch: Dispatch) => {

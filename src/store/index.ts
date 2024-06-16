@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { TypedUseSelectorHook } from 'react-redux';
-import authSliceReducer from './aith-slice';
+import authSliceReducer from './auth-slice';
 import favoritesSliceReducer from './favorites-slice';
 
 export const store = configureStore({
