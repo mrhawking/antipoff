@@ -1,0 +1,22 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.inputLabel {
+  margin-bottom: 4px;
+}
+
+.errorField {
+  color: var(--accent-red--100);
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.eyeButton {
+  position: absolute;
+  top: 43px;
+  right: 8px;
+}

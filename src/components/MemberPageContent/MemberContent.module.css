@@ -1,0 +1,26 @@
+.memberInner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  padding-top: clamp(2rem, 1.6259rem + 1.5962vw, 3.0625rem);
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.aboutMember {
+  max-width: 630px;
+  justify-self: center;
+}
+
+.aboutMember p {
+  margin-bottom: 20px;
+}
+
+.memberContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

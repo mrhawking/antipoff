@@ -1,0 +1,8 @@
+#heartIcon svg path{
+  stroke: #151317;
+}
+
+#heartIcon.filled svg path{
+  fill: #512689;
+  stroke: #512689;
+}

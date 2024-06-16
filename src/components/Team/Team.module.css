@@ -1,0 +1,23 @@
+.team {
+  padding-top: clamp(2rem, 1.5856rem + 1.768vw, 3rem);
+  padding-bottom: clamp(2rem, 1.5856rem + 1.768vw, 3rem);
+}
+
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 305px);
+  grid-auto-rows: 263px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.showMoreBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+}

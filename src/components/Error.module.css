@@ -1,0 +1,18 @@
+.error {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.error p {
+  color: var(--accent-red--100);
+  font-size: 24px;
+}
+
+.error a {
+  padding: 10px;
+  border: 1px solid var(--accent-violet--100);
+  border-radius: 8px;
+}

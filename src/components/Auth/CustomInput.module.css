@@ -1,0 +1,12 @@
+.inputContent {
+  background-color: var(--neutral--100);
+  color: var(--gray--100);
+  padding: 16px;
+  padding-right: 8px;
+  border: 1px solid var(--neutral--100);
+}
+
+.inputContent.error {
+  border: 1px solid var(--accent-red--100);
+
+}

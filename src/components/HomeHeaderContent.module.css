@@ -1,0 +1,15 @@
+.headerContentWrapper {
+  text-align: center;
+  max-width: 846px;
+  margin: 0 auto;
+}
+
+.headerContentTitle {
+  margin-bottom: 16px;
+  font-size: clamp(2.25rem, 1.5914rem + 3.0108vw, 4rem);
+}
+
+.headerContentText {
+  text-align: center;
+  font-size: clamp(1rem, 0.9059rem + 0.4301vw, 1.25rem);
+}
